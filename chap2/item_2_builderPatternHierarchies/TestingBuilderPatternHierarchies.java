@@ -1,7 +1,7 @@
-package builderPatternHierarchies;
+package item_2_builderPatternHierarchies;
 
-import static builderPatternHierarchies.Pizza.Topping.*;
-import static builderPatternHierarchies.NyPizza.Size.*;
+import static item_2_builderPatternHierarchies.NyPizza.Size.*;
+import static item_2_builderPatternHierarchies.Pizza.Topping.*;
 
 public class TestingBuilderPatternHierarchies {
 

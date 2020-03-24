@@ -1,4 +1,4 @@
-package builderPattern;
+package item_2_builderPattern;
 
 
 public class Test {
