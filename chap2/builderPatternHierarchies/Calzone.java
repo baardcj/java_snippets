@@ -1,4 +1,4 @@
-package BuilderPatternHierarchies;
+package builderPatternHierarchies;
 
 public class Calzone extends Pizza {
 	

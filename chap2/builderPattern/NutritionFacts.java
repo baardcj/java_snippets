@@ -1,4 +1,4 @@
-package BuilderPattern;
+package builderPattern;
 
 
 public class NutritionFacts {

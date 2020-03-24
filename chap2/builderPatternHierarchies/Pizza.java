@@ -1,4 +1,4 @@
-package BuilderPatternHierarchies;
+package builderPatternHierarchies;
 
 import java.util.*;
 
@@ -24,5 +24,4 @@ public abstract class Pizza {
     Pizza(Builder<?> builder) {
         toppings = builder.toppings.clone(); // See Item 50
     }
- 
 }

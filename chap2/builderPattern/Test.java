@@ -1,4 +1,4 @@
-package BuilderPattern;
+package builderPattern;
 
 
 public class Test {
@@ -9,8 +9,4 @@ public class Test {
 		NutritionFacts vaffler = new NutritionFacts.Builder(100, 10).build(); 
 		
 	}
-	
 }
-
-
-

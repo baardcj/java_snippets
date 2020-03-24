@@ -1,8 +1,4 @@
-package BuilderPatternHierarchies;
-
-import static BuilderPatternHierarchies.NyPizza.Size.SMALL;
-import static BuilderPatternHierarchies.Pizza.Topping.MUSHROOM;
-import static BuilderPatternHierarchies.Pizza.Topping.ONION;
+package builderPatternHierarchies;
 
 import java.util.*;
 
@@ -30,8 +26,6 @@ public class NyPizza extends Pizza {
     } 
     
     
-    
-
     private NyPizza(Builder builder) {
         super(builder);
         size = builder.size;
