@@ -1,0 +1,22 @@
+package item_16_classes_and_interfaces;
+
+
+// accessor methods and mutators  (Page 78)
+// hides the field x and y 
+// It is possible to change the internal data representation without affecting the API
+
+class Point {
+ private double x;
+ private double y;
+
+ public Point(double x, double y) {
+     this.x = x;
+     this.y = y;
+ }
+
+ public double getX() { return x; }
+ public double getY() { return y; }
+
+ public void setX(double x) { this.x = x; }
+ public void setY(double y) { this.y = y; }
+}
